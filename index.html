@@ -10,11 +10,13 @@
             font-size:0.625px;fill:#ffffff;fill-opacity:1;
         }
         </style>
-        <link rel="stylesheet" type="text/css" href="css/mix.css">
+        <link rel="stylesheet" type="text/css" href="css/berlin.css" id="logo_style">
     </head>
     <body>
+
+
         <svg
-            xmlns="http://www.w3.org/2000/svg" width="90%" height="90%"
+            xmlns="http://www.w3.org/2000/svg" width="100%" height="90%"
             viewBox="0 0 11 11" id="jh_logo" shape-rendering="crispEdges">
             <g id="face">
                 <g id="eyes">
@@ -32,5 +34,20 @@
             </g>
             <text id="url" x="2.65" y="10.7">www.jugendhackt.de</text>
         </svg>
+
+
+        Style: 
+        <select id="style" onchange="newStyle(this)">
+          <option value="berlin">@jugendhackt</option>
+          <option value="nord">@jhacktnord</option>
+          <option value="ost">@jhacktost</option>
+          <option value="schweiz">@jugendhacktCH</option>
+          <option value="sued">@jhacktsued</option>
+          <option value="west">@jhacktwest</option>
+          <option value="mix">CRAZY ALPAKA</option>
+        </select>
+
+
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>
