@@ -1,0 +1,15 @@
+.blink {
+	animation-name: blink;
+    animation-duration: 1s;
+}
+
+@keyframes blink {
+	90% {
+		transform: none;
+		animation-timing-function: ease-in;
+	}
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(6px) scaleY(0.1)
+	}
+}
