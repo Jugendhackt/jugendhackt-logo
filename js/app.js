@@ -23,5 +23,13 @@ function blink(id) {
 	setTimeout(blink, wait_amount, id);
 }
 
+function toggleUrl() {
+	var e = document.getElementById("url");
+	if(e.style.display != 'none')
+        e.style.display = 'none';
+    else
+        e.style.display = 'block';
+}
+
 blink("left_eye");
 blink("right_eye");
