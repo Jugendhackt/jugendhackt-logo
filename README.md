@@ -15,3 +15,7 @@ Das Alpaka besteht aus fünf Teilen: zwei Augen, einem Mund, den Ohren sowie dem
 Die Ohren (`#ears`) und der Mund (`#mouth`) können auch einzeln oder zusammen verändert werden (`#head`).
 
 Verändert werden können vorallem die Farben der Elemente, wie z.B. in den Dateien in `css/`.
+
+## Lizenz
+
+Alle Dateien **außer** der `ebisu.ttf` stehen under [CC-BY 4.0 Jugend hackt](https://creativecommons.org/licenses/by/4.0/)
