@@ -20,8 +20,6 @@ function blink(id) {
 	if (wait_amount < 1000)
 		wait_amount += 1000;
 
-	console.log(wait_amount);
-
 	setTimeout(blink, wait_amount, id);
 }
 
