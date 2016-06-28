@@ -4,7 +4,7 @@ In diesem Repo findest du eine SVG-Version des [Jugend hackt](http://jugendhackt
 
 In der `index.html` ist dieses SVG in ein HTML-Gerüst eingebunden, sodass die Schriftart für die URL stimmt und die Farben einfach über die Stylesheets in `css/` geändert werden können.
 
-![Buntes Jugend hackt logo](https://raw.githubusercontent.com/pajowu/jugendhackt-logo/master/mix.png)
+![Buntes Jugend hackt logo](https://raw.githubusercontent.com/pajowu/jugendhackt-logo/gh-pages/mix.png)
 
 ## Anpassen
 
