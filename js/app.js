@@ -31,5 +31,12 @@ function toggleUrl() {
         e.style.display = 'block';
 }
 
+function getPNG() {
+	console.log(document.getElementById("jh_logo"));
+	savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100})
+}
+
+
+
 blink("left_eye");
 blink("right_eye");
