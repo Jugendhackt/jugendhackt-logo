@@ -4,6 +4,7 @@ function newStyle(e) {
 	var style_name = e.value;
 	var style_element  = document.getElementById('logo_style');
 	style_element.href = 'css/' + style_name +'.css';
+	savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100}, document.getElementById("downloadButton"))
 }
 
 function blink(id) {
@@ -31,11 +32,10 @@ function toggleUrl() {
         e.style.display = 'block';
 }
 
-function getPNG() {
-	console.log(document.getElementById("jh_logo"));
-	savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100})
+window.onload = function() {
+	console.log("onload")
+	savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100}, document.getElementById("downloadButton"))
 }
-
 
 
 blink("left_eye");
