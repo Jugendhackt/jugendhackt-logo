@@ -6,7 +6,7 @@ function newStyle(e) {
 	var style_element  = document.getElementById('logo_style');
 	style_element.href = 'css/' + style_name +'.css';
 	document.getElementById("url").innerHTML = url;
-	savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100}, document.getElementById("downloadButton"))
+	setTimeout(function(){savePng(document.getElementById("jh_logo"), 'jh_logo.png', {scale: 100}, document.getElementById("downloadButton"))},100);
 }
 
 function blink(id) {
