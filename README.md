@@ -1,6 +1,6 @@
 # Jugend hackt logo
 
-In diesem Repo findest du eine SVG-Version des [Jugend hackt](http://jugendhackt.org)-Logos. Wenn du es so Verwenden moechtest, nimm am besten die `jh.svg`.
+In diesem Repo findest du eine SVG-Version des [Jugend hackt](http://jugendhackt.org)-Logos. Wenn du es so verwenden möchtest, nimm am besten die `jh.svg`.
 
 Eine Live-Version mit Animationen findest du [hier](https://jugendhackt.github.io/jugendhackt-logo/).
 
