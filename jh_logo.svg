@@ -15,5 +15,5 @@
 		<polygon id="beard"
 			points="0,5 0,9 1,9 1,10 2,10 2,11 9,11 9,10 10,10 10,9 11,9 11,5 10,5 10,8 9,8 9,9 8,9 8,10 3,10 3,9 2,9 2,8 1,8 1,5" ></polygon>
 	</g>
-	<text id="url" text-anchor="middle" x="5.5" y="10.7">www.jugendhackt.org</text>
+	<text id="url" text-anchor="middle" x="5.5" y="10.7">jugendhackt.org</text>
 </svg>
