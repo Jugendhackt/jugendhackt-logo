@@ -2,6 +2,8 @@
 
 In diesem Repo findest du eine SVG-Version des [Jugend hackt](http://jugendhackt.org)-Logos. Wenn du es so verwenden möchtest, nimm am besten die `jh.svg`.
 
+Die Datei `jh-lasercut.svg` ist eine modifizierte Form zum Lasercutten. Rote Konturlinien zum Schneiden und eine schwarze Fläche zum Gravieren.
+
 Eine Live-Version mit Animationen findest du [hier](https://jugendhackt.github.io/jugendhackt-logo/).
 
 In der `index.html` ist dieses SVG in ein HTML-Gerüst eingebunden, sodass die Schriftart für die URL stimmt und die Farben einfach über die Stylesheets in `css/` geändert werden können.
